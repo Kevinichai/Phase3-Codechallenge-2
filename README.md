@@ -2,11 +2,11 @@
 
 # LEARNING OUTCOMES
 This assignment tests python concepts and their application;particularly testing the following topics:
--Classes and Instances
--Class and Instance Methods
--Variable Scope
--Object Relationships
--lists and list Methods
+- Classes and Instances
+- Class and Instance Methods
+- Variable Scope
+- Object Relationships
+- lists and list Methods
 
 #PRE-REQUISITES/TECHNOLOGIES
 - Knowledege in python programming language particularly relating to the aforementioned topics.
