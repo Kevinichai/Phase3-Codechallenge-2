@@ -8,9 +8,9 @@ class Order:
         if not isinstance(coffee, Coffee):  
             raise ValueError("Order must have a valid Coffee")  
 
-        self._customer = customer  # Assigning the customer  
-        self._coffee = coffee  # Assigning the coffee  
-        self._price = price  # Assigning the price  
+        self._customer = customer    
+        self._coffee = coffee   
+        self._price = price    
 
     @property  
     def price(self):  

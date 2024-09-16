@@ -1,13 +1,13 @@
 class Customer:  
-    customers = []  # List to hold instances of customers  
+    customers = []  
 
     def __init__(self, name):  
         """Initialize Customer with a name, ensuring it’s valid."""  
         if not isinstance(name, str) or not (1 <= len(name) <= 15):  
             raise ValueError("Customer name must be a string of 1 to 15 characters")  
         self._name = name  
-        self.orders = []  # List to hold orders of the customer  
-        Customer.customers.append(self)  # Store the customer instance  
+        self.orders = []   
+        Customer.customers.append(self)    
 
     @property  
     def name(self):  
