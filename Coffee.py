@@ -3,8 +3,7 @@ class Coffee:
         """Initialize Coffee with a name, ensuring it's valid."""  
         if not isinstance(name, str) or len(name) < 3:  
             raise ValueError("Coffee name must be a string of at least 3 characters")  
-        self._name = name  # Use a 'protected' attribute to prevent direct access  
-
+        self._name = name  
     @property  
     def name(self):  
         """Return the coffee's name."""  
